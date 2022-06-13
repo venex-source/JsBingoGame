@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bingo Game</title>
+</head>
+<body>
+        <div class="container">
+            <h3 class="title">BINGO</h3>
+            <div class="result">Let's Play</div>
+            <div class="row">
+                <div class="table-1">
+                    <div class="player">😎 Player</div>
+                    <table>
+                        <tr>
+                            <th>Bingo</th>
+                            <th>Bingo</th>
+                            <th>Bingo</th>
+                            <th>Bingo</th>
+                        </tr>
+                        <tr>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                            <td class="tab-1"><span id="card-1-number"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-1" id="g"><span id="card-1-number"></span></td>
+                            <td class="tab-1" id="o"><span id="card-1-number"></span></td>
+                            <td class="tab-1" id="l"><span id="card-1-number"></span></td>
+                            <td class="tab-1" id="d"><span id="card-1-number"></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="keys">
+                    <section>
+                        <div class="box"><span class="guess"></span></div>
+                      </section>
+                    <button class="btn check" onclick="random_value()">Next Number</button>
+                    <button class="btn" id="shuffle">Shuffle Card</button>
+                    <div class="form-group">
+                        <label>Goal:</label>
+                        <select name="stuff" class="form-control" id="goal" >
+                            <option>Vertical</option>
+                            <option>Horizontal</option>
+                            <option>Diagonal</option>
+                            <option>4-Corners</option>
+                            <option>Full Corners</option>
+                        </select>
+                      </div>
+                      <button class="btn" id="bingo">Bingo</button>
+                </div>
+                <div class="table-2">
+                    <div class="computer">🤖 Computer</div>
+                    <table>
+                        <tr>
+                            <th>Bingo</th>
+                            <th>Bingo</th>
+                            <th>Bingo</th>
+                            <th>Bingo</th>
+                        </tr>
+                        <tr>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                            <td class="tab-2"><span id="card-2-number"></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

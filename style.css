@@ -1,0 +1,119 @@
+body{
+    margin: 0 0 ;
+    padding: 0 0;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    color: yellow;
+  text-shadow: 2px 2px 4px #000000;
+}
+.container{
+    text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+    animation: glow 5s infinite;
+}
+@keyframes glow {
+    0%{
+        box-shadow: 0px 6px 8px 10px rgba(63, 255, 4, 0.315);
+    }
+    25%{
+        box-shadow: 0px 6px 8px 10px rgba(255, 4, 4, 0.336);
+    }
+    50%{
+        box-shadow: 0px 6px 8px 10px rgba(255, 217, 4, 0.295);
+    }
+    75%{
+        box-shadow: 0px 6px 8px 10px rgba(24, 205, 255, 0.226);
+    }
+    100%{
+        box-shadow: 0px 6px 8px 10px rgba(247, 4, 255, 0.219);
+    }
+}
+.result{
+    font-size: 1.2rem;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.table-1, .table-2{
+    margin: 1rem;
+    border: 1px solid crimson;
+    padding: 5px;
+}
+table, td, th{
+    border: 2px solid black;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 15px;
+}
+@media screen and (max-width: 900px)  {
+    .row{
+        display: block;
+    }
+    th, td{
+        padding: 12px;
+    }
+}
+
+.keys{
+    margin-top: 2rem;
+}
+
+.box {
+    padding: 1rem 2rem;
+    margin: auto;
+    width: fit-content;
+    border: 2px solid gray;
+    border-radius: 50%;
+    justify-content: center;
+}
+td{
+    cursor: pointer;
+}
+.guess{
+    font-size: 5rem;
+}
+.btn {
+    margin: 1rem;
+    border: none;
+    background-color: #ff9800;
+    color: rgb(248, 248, 248);
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: .5rem;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  
+  .btn:hover {
+    background-color: #e68a00;
+  }
+  select{
+    width: max-content;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+.red{
+    background-color: red;
+    color: white;
+}
+.black{
+    background-color: white;
+    color: red;
+}
+
+.hidden{
+    display: none;
+}

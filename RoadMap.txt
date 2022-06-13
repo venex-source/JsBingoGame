@@ -1,0 +1,63 @@
+Name of Project: BINGO
+Author: Jefferson Kadiri(Venex-Source)
+Start-Date: 03/June/2022
+End-Date: 13/June/2022
+Aim: To Improve My Javascript skills and My love to create game 🎮🎰 .
+
+Problems:
+	HTML
+. How to create the table
+. Boxes for the Cards
+. The button with div and input. 
+
+	CSS
+. The glowing effect for the bingo game.
+. The styling for the card
+. The styling for the bingo text character
+. Styling and positioning the div, input 
+. random number box with button and input
+. responsiveness for all element
+
+	JS
+. Displaying values in the card
+. Generate random numbers for each card and displaying it.
+. Get unique random number from 1 - 100 without a value been repeated
+  in the same card
+. Re-write 3 Js problem to create clean coding and to keep code DRY.
+. Add background color onclick of a value
+. Shuffle button to get new card and remove background color.
+. Calling random number for user and bot
+. Bot automatically tick if random value is included in the card
+. if random value is not in bot or user card click can't work
+. Bingo game logic
+. Shuffle Card to Start New game
+.Still Refactoring
+SOLUTIONS
+	HTML
+. Learnt how to create a table with table, tr , th, td
+. Learnt the right element that we would use for styling the card
+. Added input and other necessary div 
+	CSS
+. Learnt how animation works with the timing convention
+. Learnt how to:
+	. Style the  card and position
+	. Spacing around the card
+	. Media query for responsiveness
+.Learnt text shadow
+. built a table to store random value for card and guess number
+. used media queria and css property for styling and responsiveness
+
+	JS
+. Learnt to display value using the innerHTML.
+. Learnt to target element with the same id using (document.querySeletorAll)
+. Learnt to loop through the length of the id (didn't even know it was possible
+  well it's programming so not really that suprised 😁) 
+. Did the random values on card: 
+	. From  1-16 with the math.random then flooring it to get a perfect integer and stored the value in an array. 
+	. Then using a while loop and the include method i was able to check if the new random value was 
+	in the array if 'YES' then get a random value again but if 'FALSE' then push value to the array.
+	.Then made my code clean and DRY with the a function to accept the parameters 'card1' and 'card2'.
+. Did the styling of removing every background on click of shuffle by looping through the id and removing the class. 
+. Did the bingo logic by checking if bot or user checked button includes an array.
+. Shuffle card to reset game to default.
+. Still working on the refactoring of code
